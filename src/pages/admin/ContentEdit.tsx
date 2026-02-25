@@ -44,12 +44,6 @@ const GENRES = [
   'Dorama',
 ];
 
-const SECTIONS = [
-  { id: 'trending', label: 'Tendencias' },
-  { id: 'new_releases', label: 'Nuevos Lanzamientos' },
-  { id: 'popular', label: 'Populares' },
-  { id: 'top_rated', label: 'Mejor Valorados' },
-];
 
 const MAIN_SECTIONS = [
   { id: 'peliculas', label: 'Peliculas' },
@@ -201,9 +195,6 @@ export default function AdminContentEdit() {
     }));
   };
 
-  const toggleSection = (sectionId: string) => {
-    toggleMainSection(sectionId);
-  };
 
   // Season & Episode Management
   const addSeason = () => {

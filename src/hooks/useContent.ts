@@ -7,7 +7,6 @@ import {
   getDoc,
   where,
   orderBy,
-  limit,
 } from 'firebase/firestore';
 import { db } from '@/lib/firebase';
 import { normalizeGenres } from '@/lib/genres';
